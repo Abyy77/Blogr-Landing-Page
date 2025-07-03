@@ -360,9 +360,7 @@ h2 {
 .box3 {
   position: absolute;
   top: -180px; 
-  left: 1%;
-  transform: translateX(-50%);
-  width: 1px; 
+  margin: auto;
 }
 
  .box3 img{
@@ -397,25 +395,27 @@ h2 {
 }
 
 .group3{
-  display: block;
-  flex-direction: column;
-  text-align: center;
-  gap: 1rem;
-  text-align: center;
-  height: auto; 
-  padding: 0 1.5rem 0 1.5rem ;
-  margin: auto;
+     display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 1rem;
+      margin: auto;
+      padding: 2rem;
       }
 
 .box5{
   display: flex;
-  align-items: center;
-  justify-content: center;
+      justify-content: center;
+      align-items: center;
+    
+      padding: 1rem;
 }      
 .box5 img {
-  padding: 2rem 0 2.5rem 0;
-  position: relative;
-  left:-25.5%
+ max-width: 100%;
+      height: auto;
+      display: block;
+    
 }
 
 .box6 {
@@ -431,24 +431,22 @@ h2 {
   text-align: center;
   font-size: 25px;
 }
+
 .box6 p {
-  width: 20rem;
+  width: 18.5rem;
   line-height: 1.5rem;
-  color: #b6b7b9;
-  text-align: center;
+      color: #b6b7b9;
+      text-align: center;
 }
 
 .footer {
   display: block;
-  /* justify-content: center; */
   align-items: center;
   background-color: #24242c;
-  border-top-right-radius: 50px;
+  border-top-right-radius: 100px;
   color: #bdbdc5;
   margin-top: 6rem;
-  /* padding: 2rem 7.8rem 2rem 7.8rem; */
   height:100%;
-  /* margin: auto; */
 }
 
 .footer-group {
@@ -468,9 +466,8 @@ h2 {
   margin-top: 3rem;
   font-weight: bold;
   color: #fff;
-  /* display: block; */
-  /* gap: 2rem; */
 }
+
 
 
 
